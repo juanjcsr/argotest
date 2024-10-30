@@ -6,5 +6,6 @@ argo-cd:
   applicationSet:
     enabled: false
   server:
+    replicas: 2
     extraArgs:
       - --insecure
