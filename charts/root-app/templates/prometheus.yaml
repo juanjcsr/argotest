@@ -8,12 +8,15 @@ spec:
   project: default
   source:
     repoURL: https://github.com/juanjcsr/argotest.git
-    chart: charts/prometheus
+    path: charts/prometheus
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
-    namespace: prometheus
+    namespace: monitoring
   syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    - ServerSideApply=true
     automated:
-      prune: true
       selfHeal: true
+      prune: true
