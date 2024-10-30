@@ -7,13 +7,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://prometheus-community.github.io/helm-charts
-    chart: prometheus
-    targetRevision: 25.28.0
-    helm:
-      values: |
-        pushgateway:
-          enabled: false
+    repoURL: https://github.com/juanjcsr/argotest.git
+    chart: charts/prometheus
+    targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc
     namespace: prometheus
