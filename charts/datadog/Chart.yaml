@@ -1,0 +1,7 @@
+apiVersion: v2
+name: datadog
+version: 1.0.1
+dependencies:
+  - name: datadog-agent
+    version: 3.77.1
+    repository: https://helm.datadoghq.com
