@@ -1,4 +1,5 @@
 datadog:
-  apiKeyExistingSecret: "datadog-secret"
-  appKeyExistingSecret: "datadog-secret"
-  site: datadoghq.eu
+  datadog:
+    apiKeyExistingSecret: "datadog-secret"
+    appKeyExistingSecret: "datadog-secret"
+    site: datadoghq.eu
