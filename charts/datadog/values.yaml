@@ -8,4 +8,4 @@ datadog:
     orchestratorExplorer:
       enabled: true
     kubelet:
-      tlsVerify: true
+      tlsVerify: false
