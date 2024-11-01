@@ -9,3 +9,4 @@ datadog:
       enabled: true
     kubelet:
       tlsVerify: false
+    clusterName: minikubetest
