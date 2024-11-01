@@ -3,3 +3,7 @@ datadog:
     apiKeyExistingSecret: "datadog-secret"
     appKeyExistingSecret: "datadog-secret-app"
     site: datadoghq.eu
+    processAgent:
+      enabled: true
+    orchestratorExplorer:
+      enabled: true
