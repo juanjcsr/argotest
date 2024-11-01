@@ -7,3 +7,5 @@ datadog:
       enabled: true
     orchestratorExplorer:
       enabled: true
+    kubelet:
+      tlsVerify: true
