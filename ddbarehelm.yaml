@@ -11,3 +11,6 @@ datadog:
   logs:
     enabled: true
     containerCollectAll: true
+  clusterAgent:
+    createPodDisruptionBudget: true
+    replicas: 2
