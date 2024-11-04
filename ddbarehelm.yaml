@@ -1,0 +1,13 @@
+datadog:
+  apiKeyExistingSecret: "datadog-secret"
+  site: datadoghq.eu
+  processAgent:
+    enabled: true
+  orchestratorExplorer:
+    enabled: true
+  kubelet:
+    tlsVerify: false
+  clusterName: minikubetest
+  logs:
+    enabled: true
+    containerCollectAll: true

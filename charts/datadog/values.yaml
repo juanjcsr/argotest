@@ -10,3 +10,6 @@ datadog:
     kubelet:
       tlsVerify: false
     clusterName: minikubetest
+    logs:
+      enabled: true
+      containerCollectAll: true
